@@ -1,0 +1,128 @@
+body {
+  background-color: rgba(242, 241, 239, 1);
+}
+
+h3 {
+  font-family: "tribute","Georgia","Times New Roman",serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h6 {
+  font-family: "tribute","Georgia","Times New Roman",serif;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 700px;
+}
+
+.card {
+  border: none;
+  margin-top: 30px;
+  background: rgba(242, 241, 239, 1);
+}
+
+.card img{
+/*  width: 100%;
+*/
+}
+
+.card-rbnb {
+  margin-top: 30px;
+  transition: transform .2s;
+}
+
+.card-rbnb:hover {
+  transform: scale(1.1);
+}
+
+.card-wemeet {
+  transition: transform .2s;
+}
+
+.card-wemeet:hover {
+  transform: scale(1.1);
+}
+
+.card-Mister-cocktail {
+  margin-top: 30px;
+  transition: transform .2s;
+}
+
+.card-Mister-cocktail:hover {
+  transform: scale(1.1);
+}
+
+.card-locust {
+  margin-top: 30px;
+  transition: transform .2s;
+}
+
+.card-locust:hover {
+  transform: scale(1.1);
+}
+
+img {
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+  max-width:100%;
+  max-height:100%;
+}
+
+.avatar {
+  text-align: center;
+}
+
+.avatar img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: center;
+}
+
+.skill-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+
+.footer .fa-heart {
+  color: #D23333;
+}
+
+
+
+
+
+
