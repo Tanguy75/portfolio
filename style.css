@@ -1,17 +1,74 @@
 body {
   background-color: rgba(242, 241, 239, 1);
+  font-family: "Open Sans", arial, sans-serif
+}
+
+h2 {
+  font-family: 'Dosis','Arial', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  top: -90px;
+  position: relative;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  line-height: 1.8;
+  opacity: .9;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+  line-height: 1.2;
+  opacity: .75;
 }
 
 h3 {
-  font-family: "tribute","Georgia","Times New Roman",serif;
+  font-family: 'Dosis', 'Arial', sans-serif;
   text-align: center;
   margin-top: 30px;
+  font-size: 18px;
+  letter-spacing: 0.4em;
+  line-height: 1.4;
+
 }
 
 h6 {
-  font-family: "tribute","Georgia","Times New Roman",serif;
+  font-family: 'Dosis', 'Arial', sans-serif;
   text-align: left;
   margin-top: 10px;
+}
+
+span:hover {
+  color: white;
+}
+
+.blocknav {
+  text-align: center;
+  position: relative;
+  top: -60px;
+}
+
+.blocknav li {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+ul.blocknav {
+  padding-inline-start: 0;
+}
+
+.blocknav a {
+  color: black;
+  opacity: 0.3;
+  text-decoration: none;
+}
+
+.blocknav a:hover {
+  opacity: 0.9;
 }
 
 .container {
@@ -22,15 +79,152 @@ h6 {
 
 .card {
   border: none;
-  margin-top: 30px;
   background: rgba(242, 241, 239, 1);
 }
 
-.card img{
-/*  width: 100%;
-*/
+.col-xs-12 {
+  padding-right: 0;
 }
 
+.contact-item {
+  position: relative;
+  padding-left: 44px;
+  color: rgb(68, 68, 68);
+}
+
+
+
+.ci-icon {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 10px;
+  left: 3px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 23px;
+}
+
+.ci-icon:before {
+  content: " ";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(17, 17, 17);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.ci-icon-linkedin {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 10px;
+  left: 3px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 23px;
+}
+
+.ci-icon-linkedin:before {
+  content: " ";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: rgb(17, 17, 17);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.linkedin-icon {
+  padding-bottom: 10px;
+}
+
+.linkedin-block {
+  position: relative;
+  left: 10px;
+  padding-top: 11px;
+}
+
+.github-block {
+  position: relative;
+  right: -30px;
+}
+
+.ci-icon i {
+  position: relative;
+}
+
+.ci-icon a {
+  color: white;
+}
+
+.ci-icon a:hover {
+  opacity: 0.9;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ci-title {
+  margin-bottom: 1px;
+  color: rgb(119, 119, 119);
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  width: max-content;
+}
+
+.ci-text {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/*.contact-item a {
+  color: rgb(68, 68, 68);
+  text-decoration: none;
+}*/
+
+a {
+  background-color: rgba(0, 0, 0, 0);
+  color: #777777;
+}
+
+.column-icons-footer {
+  display:flex;
+  justify-content: space-between;
+}
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/*
 .card-rbnb {
   margin-top: 30px;
   transition: transform .2s;
@@ -72,10 +266,12 @@ img {
   text-align: center;
   max-width:100%;
   max-height:100%;
-}
+}*/
 
 .avatar {
   text-align: center;
+  position: relative;
+  top: -104px;
 }
 
 .avatar img{
@@ -83,6 +279,8 @@ img {
   height: 100px;
   border-radius: 100%;
   position: center;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.35);
+  border: 2px solid rgb(210, 210, 210);
 }
 
 .skill-item {
@@ -91,13 +289,14 @@ img {
 }
 
 .footer {
-  background: #F4F4F4;
+  background: black;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 100px;
   padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
+  /*color: rgba(0,0,0,0.3);*/
+  color: #3C3C3C;
 }
 
 .footer-links {
@@ -106,7 +305,7 @@ img {
 }
 
 .footer-links a {
-  color: black;
+  color: white;
   opacity: 0.15;
   text-decoration: none;
   font-size: 24px;
@@ -120,9 +319,5 @@ img {
 .footer .fa-heart {
   color: #D23333;
 }
-
-
-
-
 
 
